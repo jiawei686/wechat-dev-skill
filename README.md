@@ -32,8 +32,9 @@
 
 1. 先装好 `wechat-dev-mcp` 并在客户端（Cursor / Claude Code / Codex / OpenCode 等）里连上它（配置示例见 MCP 仓库的 `examples/`）。
 2. 把本 Skill 放到客户端的 skills 目录，例如：
-   - 用户级：`~/.workbuddy/skills/wechat-dev-skill/`
-   - 项目级：`<项目>/.workbuddy/skills/wechat-dev-skill/`
+   - WorkBuddy 用户级：`~/.workbuddy/skills/wechat-dev-skill/`
+   - 项目级（任意客户端）：`<项目>/.workbuddy/skills/wechat-dev-skill/`
+   - 其它客户端按其自身的 skills 目录放置（Claude Code / Codex / OpenCode / Cursor / Windsurf / Cline / Zed 等）
 3. 确保 SKILL.md 与 README.md 在同一目录，重新加载客户端即可。
 
 ## 典型调试流程
